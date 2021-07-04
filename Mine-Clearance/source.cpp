@@ -48,12 +48,12 @@ namespace CodeRun { // The Code in Charge of Running
         printf("\nInput [Length]\n>>> "), n = read();
         while (n <= 0 || n >= 100) {
             puts("\nWrong Number!");
-            printf("\nInput [The Number Of Mines]\n>>> "), n = read();
+            printf("\nInput [Length]\n>>> "), n = read();
         }
         printf("\nInput [Width]\n>>> "), m = read();
         while (m <= 0 || m >= 100) {
             puts("\nWrong Number!");
-            printf("\nInput [The Number Of Mines]\n>>> "), m = read();
+            printf("\nInput [Width]\n>>> "), m = read();
         }
         printf("\nInput [The Number Of Mines]\n>>> "), num = read();
         while (num >= n * m) {
